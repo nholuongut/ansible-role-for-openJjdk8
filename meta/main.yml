@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  role_name: openjdk8
+  author: darkwizard242
+  description: Install/uninstall OpenJDKs Java 8 package on Debian and EL based systems.
+  company: none
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+    - name: Debian
+      versions:
+        - buster
+    - name: EL
+      versions:
+        - 7
+        - 8
+
+  galaxy_tags:
+    - openjdk8
+    - java
+    - os
+    - system
+    - programming
+    - language
+
+dependencies: []
